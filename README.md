@@ -1,20 +1,43 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# ✈️ 3D Flight Simulator
 
-# Run and deploy your AI Studio app
+간단한 **3D 비행 시뮬레이터** 프로젝트입니다.  
+비행기를 조종하며 하늘을 나는 기본적인 비행 물리와 카메라 시점을 구현했습니다.
 
-This contains everything you need to run your app locally.
+---
 
-View your app in AI Studio: https://ai.studio/apps/drive/1OoZGaK8t02fgOIxawhyxGpquOyn-gbpG
+## 📌 프로젝트 소개
 
-## Run Locally
+이 프로젝트는 3D 환경에서 비행기를 조작하는 시뮬레이터입니다.
 
-**Prerequisites:**  Node.js
+- 키보드를 이용해 비행기 이동
+- 3D 공간에서 비행기 회전 및 전진
+- 실제 비행처럼 부드러운 움직임 구현
 
+코딩과 3D 그래픽에 대한 이해를 높이기 위해 만든 개인 학습용 프로젝트입니다.
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+---
+
+## 🎮 조작 방법
+
+| 키 | 기능 |
+|----|------|
+| W / S | 전진 / 후진 |
+| A / D | 좌우 회전 |
+| ↑ / ↓ | 위 / 아래 이동 |
+| ← / → | 방향 조절 |
+
+*(조작 키는 프로젝트에 따라 수정 가능)*
+
+---
+
+## 🛠 사용 기술
+
+- Language: `C#` / `JavaScript` / `Python` (사용한 언어로 수정)
+- Engine: `Unity` / `Three.js` / `Godot`
+- 3D Graphics
+- Physics (기본 물리 적용)
+
+---
+
+## 📂 프로젝트 구조
+
